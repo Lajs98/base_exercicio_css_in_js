@@ -1,6 +1,13 @@
 {
-    "editor.formatOnSave": false,
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "python-envs.pythonProjects": [
+    {
+      "path": "src/components/Hero",
+      "envManager": "ms-python.python:venv",
+      "packageManager": "ms-python.python:pip"
     }
-  }
+  ]
+}
